@@ -18,7 +18,7 @@ class UI_Manager(QMainWindow):
     def __init__(self, parent = None):
         QWidget.__init__(self, None)
         self.parent = parent
-        self.setWindowTitle("Delivery Helper")
+        self.setWindowTitle("RouteV")
         self.controller = MainSystem() 
 
         self.central_widget = QStackedWidget()
