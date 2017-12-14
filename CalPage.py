@@ -1,6 +1,7 @@
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4.QtWebKit import *
+import os
 
 from WriteHTML import *
 from CalWidget import *
@@ -224,7 +225,8 @@ class CalPage(QMainWindow):
         self.info_address.setText(self.p_id_address[p_id])
     
     def show_map(self):
-        url = "file:///D:/Project/RouteV/route_html.html"
+        #print(os.getcwd()+"\route_html.html")
+        url = os.path.realpath("route_html.html")
         webbrowser.open(url)
         
     def add_mark(self):
