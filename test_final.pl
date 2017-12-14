@@ -1,4 +1,4 @@
-:- [prologtest].
+:- [pairs_kb].
 edge(X, Y, Weight) :- arc(X, Y, Weight) ; arc(Y, X, Weight).
 
 path([Begin], End, [Begin], Cost) :- edge(Begin, End, Cost).
