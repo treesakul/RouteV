@@ -6,6 +6,10 @@ find shortest path of all locations on Google Map written in Python and Prolog u
 
 Prolog is used in storing data(locations, distance between 2 locatioons) in .pl file and also used to calculate the shortest path via HeldKarp algorithm. However, Javascript and HTML are also included in order to take actions in Google Map APIs, which are Google Map Javascript(show routes and markers) and Google Map Distance Matrix API (get distance between locations)
 
+
+<p><strong>To start</span></strong></p>
+in order to start the program, run the ui_manager.py file
+
 <p><strong>Requirements</span></strong></p>
 
 - Python 3.4
