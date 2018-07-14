@@ -9,7 +9,7 @@ Prolog is used in storing data(locations, distance between 2 locatioons) in .pl 
 
 <p><strong>To start</span></strong></p> in order to start the program, run the ui_manager.py file
 <br>
-<p><strong>Requirements</span></strong></p>
+<p><strong>Required libraries</span></strong></p>
 
 - Python 3.4
 
