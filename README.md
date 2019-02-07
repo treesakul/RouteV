@@ -11,7 +11,7 @@ Prolog is used in storing data(locations, distance between 2 locatioons) in .pl 
 <br>
 <p><strong>Required libraries</span></strong></p>
 
-- Python 3.4
+- Python 3.4+
 
 - pyswip (https://github.com/yuce/pyswip)
 
